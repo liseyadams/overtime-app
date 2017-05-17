@@ -39,11 +39,11 @@ class PostsController < ApplicationController
     redirect_to posts_path, notice: 'Your post was deleted successfully'
   end
 
-  private
+private
 
-    def post_params
-      params.require(:post).permit(:date, :rationale)
-    end
+  def post_params
+    params.require(:post).permit(:date, :rationale, :status)
+  end
 
     def set_post
       @post = Post.find(params[:id])
