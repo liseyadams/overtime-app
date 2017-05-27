@@ -9,6 +9,7 @@ namespace :notification do
     # 3. Skip AdminUsers
     # 4. Send a message that has instructions and a link to log time
     employees.each do |employee|
+        AuditLog.create!(user_id: employee.id)
       SmsTool.send_sms(number: employee.phone, message: notification_message)
     end
     # number: "555-555-3323"
