@@ -16,7 +16,7 @@
 - x Email summary to managers for approval
 - x Needs to be documented if employee did not log overtime
 - x Create audit log for each text message
-- Need to update end_date when confirmed
+- x Need to update end_date when confirmed
 - Need to update audit log status when an overtime rejected
 - Update buttons on employee homepage so they show on moblie
 - Update buttons to include timespan
@@ -25,6 +25,6 @@
 - Fix admin dashboard bug
 - Implement honeybadger error reporting
 - Implement new relic for keeping side alive
-
+- Check on data issue and verify correct hours are being tracked
 
 ## TODOS:
