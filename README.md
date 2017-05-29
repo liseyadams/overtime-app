@@ -18,9 +18,9 @@
 - x Create audit log for each text message
 - x Need to update end_date when confirmed
 - x Need to update audit log status when an overtime rejected
-- Update buttons on employee homepage so they show on moblie
-- Update buttons to include timespan
-- Update button sort order on employee homepage
+- x Update buttons on employee homepage so they show on moblie
+- x Update buttons to include timespan
+- x Update button sort order on employee homepage
 - Remove unnecessary nav bar buttons for managers
 - Fix admin dashboard bug
 - Implement honeybadger error reporting
