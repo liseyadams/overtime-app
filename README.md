@@ -17,7 +17,7 @@
 - x Needs to be documented if employee did not log overtime
 - x Create audit log for each text message
 - x Need to update end_date when confirmed
-- Need to update audit log status when an overtime rejected
+- x Need to update audit log status when an overtime rejected
 - Update buttons on employee homepage so they show on moblie
 - Update buttons to include timespan
 - Update button sort order on employee homepage
