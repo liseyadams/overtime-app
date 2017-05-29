@@ -40,7 +40,7 @@ describe 'navigate' do
       expect(page).to_not have_content(/This post shouldn't be seen/)
     end
   end
-
+  
 describe 'new' do
   it 'has a link from the homepage' do
     employee = Employee.create(first_name: 'Employee', last_name: 'Authorized', email: "employee@example.com", password: "asdfasdf", password_confirmation: "asdfasdf", phone: "5555555555")
